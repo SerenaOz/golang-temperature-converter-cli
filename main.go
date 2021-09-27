@@ -30,7 +30,7 @@ func main() {
 			printError(errReadingInput)
 		}
 
-		if originUnit == C {
+		if originUnit == "C" {
 			convertToFahrenheit(originValue)
 		} else {
 			convertToCelsius(originValue)
